@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\arake\desktop\proto\prototype\prototype\main.cpp(16): warning C4060: switch statement contains no 'case' or 'default' labels
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::create(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_?create@Window@sf@@QAEXVVideoMode@2@ABVString@2@IABUContextSettings@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QBE_NXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::setKeyRepeatEnabled(bool)" (__imp_?setKeyRepeatEnabled@Window@sf@@QAEX_N@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(void)" (__imp_??0RenderWindow@sf@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ) referenced in function _main
+C:\Users\arake\Desktop\PROTO\Prototype\Debug\Prototype.exe : fatal error LNK1120: 10 unresolved externals
